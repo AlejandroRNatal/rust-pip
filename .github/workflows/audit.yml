@@ -1,4 +1,4 @@
-name: Dependency Audit
+name: 🔎 Dependency Audit
 on:
   push:
     branches:
