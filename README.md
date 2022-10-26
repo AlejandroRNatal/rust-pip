@@ -1,4 +1,5 @@
 # rust-pip [![🔨 Build](https://github.com/AlejandroRNatal/rust-pip/actions/workflows/build.yml/badge.svg?branch=develop&event=workflow_run)](https://github.com/AlejandroRNatal/rust-pip/actions/workflows/build.yml)
+
 (We don't have a logo yet so anything is welcomed)
 
 WORK IN PROGRESS
