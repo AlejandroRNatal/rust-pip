@@ -1,0 +1,17 @@
+name: Security audit
+on:
+  push:
+    paths: 
+      - '**/Cargo.toml'
+      - '**/Cargo.lock'
+jobs:
+  security_audit:
+  strategy:
+    matrix:
+      os: [ubuntu-latest, windows-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions-rs/audit-check@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
