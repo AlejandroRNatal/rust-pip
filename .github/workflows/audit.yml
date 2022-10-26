@@ -1,9 +1,12 @@
 name: Security audit
 on:
   push:
-    paths: 
-      - '**/Cargo.toml'
-      - '**/Cargo.lock'
+    branches:
+      - main
+      - develop
+    #paths: 
+      #- '**/Cargo.toml'
+      #- '**/Cargo.lock'
 jobs:
   security_audit:
     strategy:
