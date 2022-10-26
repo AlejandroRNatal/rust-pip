@@ -1,4 +1,4 @@
-# rust-pip [![🔨 Build](https://github.com/AlejandroRNatal/rust-pip/actions/workflows/build.yml/badge.svg?branch=develop&event=workflow_run)](https://github.com/AlejandroRNatal/rust-pip/actions/workflows/build.yml)
+# rust-pip [![🔨 Build](https://github.com/AlejandroRNatal/rust-pip/actions/workflows/build.yml/badge.svg?branch=develop&event=workflow_run)](https://github.com/AlejandroRNatal/rust-pip/actions/workflows/build.yml) [![Dependency Audit](https://github.com/AlejandroRNatal/rust-pip/actions/workflows/audit.yml/badge.svg)](https://github.com/AlejandroRNatal/rust-pip/actions/workflows/audit.yml)
 
 (We don't have a logo yet so anything is welcomed)
 
